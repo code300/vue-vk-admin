@@ -1,46 +1,35 @@
 <template>
   <div>
     <el-container>
-
       <Menu />
-
       <el-container>
-
         <el-header>
           <Header />
         </el-header>
-
         <el-main>
           <Main />
         </el-main>
-
       </el-container>
     </el-container>
   </div>
 </template>
 
 <script>
-import Header from "../components/header"
-import Menu from "../components/menu"
-import Main from "../components/main"
+import Header from "../components/header";
+import Menu from "../components/menu";
+import Main from "../components/main";
 export default {
   name: "Layout",
   components: {
     Header,
     Menu,
-    Main
+    Main,
   },
-  methods: {
-    goBack() {
-      this.$router.push("/login");
-    },
-
-  }
 };
 </script>
 
 <style lang="scss" scoped>
-.el-header{
+.el-header {
   background-color: #b3c0d1;
   color: #333;
   text-align: center;
