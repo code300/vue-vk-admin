@@ -2,7 +2,7 @@
   "name": "vueadmin",
   "version": "1.0.5",
   "description": "vue admin project",
-  "author": "lvsuming",
+  "author": "jack",
   "license": "MIT",
   "scripts": {
     "dev": "node build/dev-server.js",

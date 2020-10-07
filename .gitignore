@@ -1,0 +1,4 @@
+# 需要过滤的
+/node_modules/
+/dist/
+*.zip
